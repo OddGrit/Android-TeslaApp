@@ -1,7 +1,36 @@
 <resources>
     <string name="app_name">Tesla List</string>
-    <string name="title_activity_details">DetailsActivity</string>
-
+    <string name="TeslaList">Teslas modeller</string>
+    <string name="Details">Detaljer</string>
+    <string name="myBtn">Beställ</string>
     <string name="order">Order</string>
+
+    <string-array name="items">
+        <item>Model S</item>
+        <item>Model 3</item>
+        <item>Model X</item>
+        <item>Model Y</item>
+        <item>Cybertruck</item>
+        <item>Roadster</item>
+    </string-array>
+
+    <string-array name="prices">
+        <item>Från 959 900 kr</item>
+        <item>Från 559 900 kr</item>
+        <item>Från 1 059 900 kr</item>
+        <item>Från 719 900 kr</item>
+        <item>Från TBD kr</item>
+        <item>Från 2 090 000 kr</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Model S sätter en branschstandard för prestanda och säkerhet.</item>
+        <item>Model 3 kan väljas med Dual Motor fyrhjulsdrift.</item>
+        <item>Model X har det största lastutrymmet av alla SUV:ar i sin klass.</item>
+        <item>Model Y ger maximal mångsidighet.</item>
+        <item>Bättre funktionalitet än en pickup, bättre prestanda än en sportbil.</item>
+        <item>Världens snabbaste bil med rekordsättande acceleration.</item>
+    </string-array>
+
 
 </resources>

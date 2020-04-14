@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="grit.android.teslalist.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:name="grit.android.teslalist.MainActivity"
+        android:label="@string/TeslaList"
+        tools:layout="@layout/list_item_layout">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
@@ -17,9 +17,9 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="grit.android.teslalist.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:name="grit.android.teslalist.DetailsActivity"
+        android:label="@string/Details"
+        tools:layout="@layout/list_item_layout">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"

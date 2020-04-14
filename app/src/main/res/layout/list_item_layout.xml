@@ -7,13 +7,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginLeft="27dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
         android:layout_marginTop="21dp"
         android:text="Name"
-        android:textSize="24sp" />
+        android:textSize="16sp"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:id="@+id/itemPriceTxt"
@@ -21,16 +21,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="197dp"
-        android:layout_marginLeft="197dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-        android:layout_toEndOf="@+id/itemNameTxt"
-        android:layout_toRightOf="@+id/itemNameTxt"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
         android:text="Price"
-        android:textSize="24sp" />
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp" />
 
     <TextView
         android:id="@+id/itemDescriptionTxt"
@@ -39,8 +35,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginLeft="27dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
         android:layout_marginTop="53dp"
         android:text="Description" />
 </RelativeLayout>

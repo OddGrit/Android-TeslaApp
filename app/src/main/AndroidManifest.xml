@@ -11,9 +11,17 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".DetailsActivity"
-            android:label="@string/title_activity_details"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+            android:label="@string/Details"
+            android:theme="@style/AppTheme">
+        android:parentActivityName=".MainActivity">
+        <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/TeslaList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
