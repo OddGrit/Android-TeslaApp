@@ -78,15 +78,10 @@ public class DetailsActivity extends AppCompatActivity {
 
     // returns link to order from your choice from  list
     private String getURL(int index){
-        switch (index){
-            case 0: return "https://www.tesla.com/sv_se/models/design#battery";
-            case 1: return "https://www.tesla.com/sv_se/model3/design#battery";
-            case 2: return "https://www.tesla.com/sv_se/modelx/design#battery";
-            case 3: return "https://www.tesla.com/sv_se/modely/design#battery";
-            case 4: return "https://www.tesla.com/sv_se/cybertruck/design#battery";
-            case 5: return "https://www.tesla.com/sv_se/roadster/reserve#payment";
-            default: return null;
-        }
+
+        String links[] = this.getResources().getStringArray(R.array.links);
+        return links[index];
+
     }
 
     // Scales image to fit screen and put correct image in imageview

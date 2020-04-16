@@ -31,6 +31,14 @@
         <item>Bättre funktionalitet än en pickup, bättre prestanda än en sportbil.</item>
         <item>Världens snabbaste bil med rekordsättande acceleration.</item>
     </string-array>
+    <string-array name="links">
+        <item>https://www.tesla.com/sv_se/models/design#battery</item>
+        <item>https://www.tesla.com/sv_se/model3/design#battery</item>
+        <item>https://www.tesla.com/sv_se/modelx/design#battery</item>
+        <item>https://www.tesla.com/sv_se/modely/design#battery</item>
+        <item>https://www.tesla.com/sv_se/cybertruck/design#battery</item>
+        <item>https://www.tesla.com/sv_se/roadster/reserve#payment</item>
+    </string-array>
 
 
 </resources>
